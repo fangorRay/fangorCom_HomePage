@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E68D362-2531-4E51-AEE2-87CB117F6C49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fangor.SqlDAO</RootNamespace>
+    <AssemblyName>Fangor.SqlDAO</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaseManageDAO.cs" />
+    <Compile Include="NewsManageDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fangor.DbUtility\Fangor.DbUtility.csproj">
+      <Project>{41DDFBBB-48C7-49CB-90F7-58965D8D37B7}</Project>
+      <Name>Fangor.DbUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fangor.Factoty\Fangor.Factoty.csproj">
+      <Project>{00145AAA-817D-4DC5-B456-892843586CD2}</Project>
+      <Name>Fangor.Factoty</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fangor.IBLL\Fangor.IBLL.csproj">
+      <Project>{25DAF7A5-D3D5-4094-979B-C77E1025503F}</Project>
+      <Name>Fangor.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fangor.IDAL\Fangor.IDAL.csproj">
+      <Project>{B1906EA7-F95D-429E-A999-4EE796B7799D}</Project>
+      <Name>Fangor.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fangor.Model\Fangor.Model.csproj">
+      <Project>{530596DE-101F-44FB-A584-B4976268AEB2}</Project>
+      <Name>Fangor.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fangor.Other\Fangor.Other.csproj">
+      <Project>{9A765417-095A-44F6-9CE5-8904746BCDCA}</Project>
+      <Name>Fangor.Other</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

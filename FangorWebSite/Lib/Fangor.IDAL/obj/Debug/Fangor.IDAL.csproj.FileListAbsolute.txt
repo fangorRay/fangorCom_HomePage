@@ -1,0 +1,5 @@
+D:\WebSites\FangorWebSite\Lib\Fangor.IDAL\bin\Debug\Fangor.IDAL.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.IDAL\bin\Debug\Fangor.IDAL.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\FangorWebSite\Lib\Fangor.IDAL\obj\Debug\Fangor.IDAL.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.IDAL\obj\Debug\Fangor.IDAL.pdb

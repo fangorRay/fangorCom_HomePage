@@ -1,0 +1,17 @@
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.SqlDAO.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.SqlDAO.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\obj\Debug\Fangor.SqlDAO.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\obj\Debug\Fangor.SqlDAO.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.DbUtility.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.Factoty.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.IBLL.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.IDAL.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.Model.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.DbUtility.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.Factoty.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.IBLL.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.IDAL.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.Model.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.Other.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.SqlDAO\bin\Debug\Fangor.Other.pdb

@@ -1,0 +1,5 @@
+D:\WebSites\FangorWebSite\Lib\Fangor.Factoty\bin\Debug\Fangor.Factoty.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.Factoty\bin\Debug\Fangor.Factoty.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.Factoty\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\FangorWebSite\Lib\Fangor.Factoty\obj\Debug\Fangor.Factoty.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.Factoty\obj\Debug\Fangor.Factoty.pdb

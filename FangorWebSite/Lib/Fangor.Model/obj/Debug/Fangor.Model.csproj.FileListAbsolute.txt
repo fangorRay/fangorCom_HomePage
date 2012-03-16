@@ -1,0 +1,5 @@
+D:\WebSites\FangorWebSite\Lib\Fangor.Model\bin\Debug\Fangor.Model.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.Model\bin\Debug\Fangor.Model.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\FangorWebSite\Lib\Fangor.Model\obj\Debug\Fangor.Model.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.Model\obj\Debug\Fangor.Model.pdb

@@ -1,0 +1,5 @@
+D:\WebSites\FangorWebSite\Lib\Fangor.DbUtility\bin\Debug\Fangor.DbUtility.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.DbUtility\bin\Debug\Fangor.DbUtility.pdb
+D:\WebSites\FangorWebSite\Lib\Fangor.DbUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\FangorWebSite\Lib\Fangor.DbUtility\obj\Debug\Fangor.DbUtility.dll
+D:\WebSites\FangorWebSite\Lib\Fangor.DbUtility\obj\Debug\Fangor.DbUtility.pdb

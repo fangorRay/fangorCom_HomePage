@@ -1,0 +1,147 @@
+/* Hand cursor over navigation elements */
+.unoslider_navigation {
+	cursor: pointer;
+}
+
+/* Tooltip panel */
+.unoslider_caption {
+	position: absolute;
+	right: 50px;
+	bottom: 10px;
+	left: 50px;
+	font-family: "Helvetica neue", Helvetica, Verdana, sans-serif;
+	padding: 10px 0px;
+	width: auto;
+	background-color: black;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70 );
+	opacity: 0.7;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* play, pause, previous and next elements */
+.unoslider_pause,.unoslider_play,.unoslider_left,.unoslider_right {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	position: absolute;
+	display: block;
+	background: url("square.png") no-repeat;
+	background-color: black;
+}
+
+.unoslider_pause:hover,.unoslider_play:hover {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100 );
+	opacity: 1;
+}
+
+/* play and pause elements */
+.unoslider_pause,.unoslider_play {
+	height: 53px;
+	width: 53px;
+	margin-top: -26.5px;
+	margin-left: -26.5px;
+	top: 50%;
+	left: 50%;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* previous and next elements */
+.unoslider_left,.unoslider_right {
+	width: 30px;
+	height: 30px;
+	bottom: 8px;
+}
+
+.unoslider_left,.unoslider_right {
+	background: url("normal.png") no-repeat;
+}
+
+.unoslider_left:HOVER,.unoslider_right:HOVER {
+	background: url("hover.png") no-repeat;
+}
+
+/* previous */
+.unoslider_left {
+	left: 8px;
+	background-position: 7px center;
+}
+
+/* next */
+.unoslider_right {
+	right: 8px;
+	background-position: -37px center;
+}
+
+.unoslider_left:hover {
+	background-position: 7px center;
+}
+
+.unoslider_right:hover {
+	background-position: -37px center;
+}
+
+/* pause */
+.unoslider_pause {
+	background-position: 13.5px 10px;
+}
+
+/* play */
+.unoslider_play {
+	background-position: -75px 13px;
+}
+
+/* bullet indicator */
+.unoslider_indicator {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+	text-align: center;
+	_text-align: right;
+	*text-align: right;
+}
+
+.unoslider_indicator a {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	display: -moz-inline-box;
+	-moz-box-orient: vertical;
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	overflow: visible;
+	cursor: pointer;
+	background: black;
+	margin: 3px;
+	width: 12px;
+	height: 12px;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50 );
+	opacity: 0.5;
+}
+
+.unoslider_indicator a {
+	*display: inline;
+}
+
+.unoslider_indicator a.unoslider_indicator_active,.unoslider_indicator a:hover
+	{
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50 );
+	opacity: 0.5;
+	width: 6px;
+	height: 6px;
+	background: white;
+	border: 3px solid black;
+}

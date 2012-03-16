@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Fangor", "Fangor\", "{5A9FD43A-B4D7-4CBA-9F24-50541F1D7640}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		ProjectReferences = "{C737EC91-8456-42FC-99A2-99BAB2D2C1C1}|Fangor.BllBiz.dll;{00145AAA-817D-4DC5-B456-892843586CD2}|Fangor.Factoty.dll;{25DAF7A5-D3D5-4094-979B-C77E1025503F}|Fangor.IBLL.dll;{B1906EA7-F95D-429E-A999-4EE796B7799D}|Fangor.IDAL.dll;{530596DE-101F-44FB-A584-B4976268AEB2}|Fangor.Model.dll;{1E68D362-2531-4E51-AEE2-87CB117F6C49}|Fangor.SqlDAO.dll;{41DDFBBB-48C7-49CB-90F7-58965D8D37B7}|Fangor.DbUtility.dll;{9A765417-095A-44F6-9CE5-8904746BCDCA}|Fangor.Other.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Fangor"
+		Debug.AspNetCompiler.PhysicalPath = "Fangor\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Fangor\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Fangor"
+		Release.AspNetCompiler.PhysicalPath = "Fangor\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Fangor\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8752"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.BllBiz", "Lib\Fangor.BllBiz\Fangor.BllBiz.csproj", "{C737EC91-8456-42FC-99A2-99BAB2D2C1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.DbUtility", "Lib\Fangor.DbUtility\Fangor.DbUtility.csproj", "{41DDFBBB-48C7-49CB-90F7-58965D8D37B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.SqlDAO", "Lib\Fangor.SqlDAO\Fangor.SqlDAO.csproj", "{1E68D362-2531-4E51-AEE2-87CB117F6C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.Factoty", "Lib\Fangor.Factoty\Fangor.Factoty.csproj", "{00145AAA-817D-4DC5-B456-892843586CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.IBLL", "Lib\Fangor.IBLL\Fangor.IBLL.csproj", "{25DAF7A5-D3D5-4094-979B-C77E1025503F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.IDAL", "Lib\Fangor.IDAL\Fangor.IDAL.csproj", "{B1906EA7-F95D-429E-A999-4EE796B7799D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.Model", "Lib\Fangor.Model\Fangor.Model.csproj", "{530596DE-101F-44FB-A584-B4976268AEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fangor.Other", "Lib\Fangor.Other\Fangor.Other.csproj", "{9A765417-095A-44F6-9CE5-8904746BCDCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A9FD43A-B4D7-4CBA-9F24-50541F1D7640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9FD43A-B4D7-4CBA-9F24-50541F1D7640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9FD43A-B4D7-4CBA-9F24-50541F1D7640}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9FD43A-B4D7-4CBA-9F24-50541F1D7640}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C737EC91-8456-42FC-99A2-99BAB2D2C1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C737EC91-8456-42FC-99A2-99BAB2D2C1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C737EC91-8456-42FC-99A2-99BAB2D2C1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C737EC91-8456-42FC-99A2-99BAB2D2C1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DDFBBB-48C7-49CB-90F7-58965D8D37B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DDFBBB-48C7-49CB-90F7-58965D8D37B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DDFBBB-48C7-49CB-90F7-58965D8D37B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DDFBBB-48C7-49CB-90F7-58965D8D37B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E68D362-2531-4E51-AEE2-87CB117F6C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E68D362-2531-4E51-AEE2-87CB117F6C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E68D362-2531-4E51-AEE2-87CB117F6C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E68D362-2531-4E51-AEE2-87CB117F6C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00145AAA-817D-4DC5-B456-892843586CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00145AAA-817D-4DC5-B456-892843586CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00145AAA-817D-4DC5-B456-892843586CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00145AAA-817D-4DC5-B456-892843586CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25DAF7A5-D3D5-4094-979B-C77E1025503F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DAF7A5-D3D5-4094-979B-C77E1025503F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DAF7A5-D3D5-4094-979B-C77E1025503F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DAF7A5-D3D5-4094-979B-C77E1025503F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1906EA7-F95D-429E-A999-4EE796B7799D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1906EA7-F95D-429E-A999-4EE796B7799D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1906EA7-F95D-429E-A999-4EE796B7799D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1906EA7-F95D-429E-A999-4EE796B7799D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530596DE-101F-44FB-A584-B4976268AEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530596DE-101F-44FB-A584-B4976268AEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530596DE-101F-44FB-A584-B4976268AEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530596DE-101F-44FB-A584-B4976268AEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A765417-095A-44F6-9CE5-8904746BCDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A765417-095A-44F6-9CE5-8904746BCDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A765417-095A-44F6-9CE5-8904746BCDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A765417-095A-44F6-9CE5-8904746BCDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
